@@ -55,7 +55,7 @@ cy.get('[data-cy="patient-firstname"]').click()
 cy.get('[data-cy="patient-lastname"]').click()
 .type('Kara')
 cy.get('[data-cy="patient-email"]').click()
-.type('zerdali@test.com')
+.type('ranazer@test.com')
 cy.get('.vue-tel-input > input').click().type('07448436765')
 
 cy.get(':nth-child(2) > :nth-child(1) > .spaced > .mr').click().contains('Charing Cross Hospital').click()
